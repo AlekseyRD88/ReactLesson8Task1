@@ -20,6 +20,7 @@ class Life extends Component {
   }
   componentWillUnmount() {
     console.log('cleanup before DOM related to component will be removed');
+    return true;
   }
 
   render() {
